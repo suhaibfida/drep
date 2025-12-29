@@ -8,16 +8,18 @@
     "start": "node ./dist/app.js",
     "dev": "pnpm run build && pnpm run start"
   },
-  "dev-dependencies": {
+  "dependencies": {
     "@repo/backend-common": "workspace:*",
     "@repo/common": "workspace:*",
     "@repo/db": "workspace:*",
     "@repo/typescript-config": "workspace:*",
+    "jsonwebtoken": "^9.0.3",
+    "ws": "^8.18.3"
+  },
+  "devDependencies": {
     "@types/jsonwebtoken": "^9.0.10",
     "@types/ws": "^8.18.1",
-    "jsonwebtoken": "^9.0.3",
-    "websocketserver": "^1.0.0",
-    "ws": "^8.18.3"
+    "websocketserver": "^1.0.0"
   },
   "keywords": [],
   "author": "",
